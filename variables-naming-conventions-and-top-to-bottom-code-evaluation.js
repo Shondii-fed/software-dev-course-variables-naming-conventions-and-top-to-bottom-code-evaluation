@@ -26,7 +26,10 @@ Things to reflect on:
 
 let userName = "Alice";
 let itemCount = 5;
-let itemCost = 20;
-let shoppingTrip = a + " bought " + b + " items for $" + c + ".";
+let itemsTotalCost = 20;
+let shoppingTrip = userName + " bought " + itemCount + " items for $" + itemsTotalCost + 
+  "with a " + discount + ", saving " + "$" + savings + " dollars.";
+let discount = "20%";
+let savings = itemsTotalCost * .2; 
 
 console.log(shoppingTrip);
